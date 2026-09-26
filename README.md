@@ -22,6 +22,6 @@ Publish the `main` branch from the repository root using GitHub Pages (Settings 
 
 ## Content notes
 
-The first-year PhD status, current advisor Dr. Dipankar Dasgupta, and research interests are user supplied. Education, prior research experience, LinkedIn, and photo were carried over from the public `Syudu41/portfolio` repository and should be reviewed for currency. Publication metadata was verified against https://aclanthology.org/2025.gem-1.36/.
+The first-year PhD status, current advisor Dr. Dipankar Dasgupta, and research interests are user supplied. Education, prior research experience, and photo were carried over from the public `Syudu41/portfolio` repository and should be reviewed for currency. Publication metadata was verified against https://aclanthology.org/2025.gem-1.36/.
 
-Email is omitted at the user’s request. CV is marked under construction. Google Scholar URL and current LinkedIn URL await confirmation. The PhD start date is not specified.
+Email is omitted at the user’s request. CV is marked under construction. Google Scholar and LinkedIn URLs were supplied by the user; Scholar may not list all publications. The PhD start date is not specified.
