@@ -1,6 +1,6 @@
 # Sudarshan Balaji — academic website
 
-A lightweight, responsive academic homepage inspired by Yanchen Liu’s website and al-folio. Built with plain HTML and CSS; no package installation or build step required.
+A lightweight, responsive academic homepage inspired by al-folio. Built with plain HTML and CSS; no package installation or build step required.
 
 Intended URL: https://syudu41.github.io/home/
 
