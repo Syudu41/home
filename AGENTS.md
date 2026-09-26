@@ -7,3 +7,4 @@
 - Keep the simple publication layout with linked faculty/advisor names in the blue accent. Do not add invented topic illustrations or diagrams. Keep the independent publications page separate.
 - Keep the footer visible at the bottom of the viewport while scrolling; reserve its measured height so it never covers page content.
 - Footer update dates are automatic: use the deployed document’s last-modified timestamp in Memphis time. Do not hardcode dates or use the current visit date.
+- Support light/dark mode on every page, including the fixed footer and icons. Respect the system theme until the visitor chooses a saved preference.
