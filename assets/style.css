@@ -87,7 +87,7 @@ html { scroll-padding-bottom: calc(var(--footer-height, 140px) + 24px); }
   :root:not([data-theme]) { color-scheme: dark; --ink: #e4e9ef; --muted: #adb9c6; --accent: #7abbf4; --line: #344150; --surface: #141a22; --panel: #1c2734; --on-accent: #102030; --icon-filter: invert(1); }
 }
 .contact-icons img { filter: var(--icon-filter); }
-.theme-toggle { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; padding: 0; border: 1px solid var(--line); border-radius: 50%; background: var(--surface); color: var(--ink); cursor: pointer; flex-shrink: 0; }
+.theme-toggle { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; padding: 0; border: 0; border-radius: 0; background: transparent; color: var(--ink); cursor: pointer; flex-shrink: 0; }
 .theme-toggle[hidden] { display: none; }
-.theme-toggle:hover { color: var(--accent); background: var(--panel); }
+.theme-toggle:hover { color: var(--accent); }
 .theme-toggle span { font-size: 25px; line-height: 1; }
