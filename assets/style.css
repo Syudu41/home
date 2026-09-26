@@ -46,7 +46,9 @@ details { margin-top: 12px; font-size: 14px; }
 summary { cursor: pointer; color: var(--muted); width: fit-content; }
 details p { margin: 10px 0 0; }
 #contact p { font-size: 14px; }
-footer { margin-top: 55px !important; padding: 22px 0 25px; border-top: 1px solid var(--line); font-size: 11px; color: var(--muted); }
+body { padding-bottom: calc(var(--footer-height, 140px) + 24px); }
+footer.container { position: fixed; bottom: 0; left: 0; z-index: 10; width: 100%; margin: 0; padding: 12px max(18px, calc((100% - 930px) / 2)); border-top: 1px solid var(--line); background: #fff; font-size: 11px; line-height: 1.65; color: var(--muted); text-align: center; }
+html { scroll-padding-bottom: calc(var(--footer-height, 140px) + 24px); }
 .skip-link { position: absolute; top: -100px; left: 15px; background: white; padding: 8px; z-index: 5; }
 .skip-link:focus { top: 10px; }
 @media (max-width: 650px) { .container { width: calc(100% - 36px); } .navigation { flex-direction: column; align-items: flex-start; gap: 10px; padding-block: 16px; } .nav-links { gap: 21px; } main { padding-top: 32px; } .intro { grid-template-columns: 1fr; gap: 25px; } .profile { grid-row: 1; display: flex; gap: 18px; align-items: center; } .profile-placeholder { width: 125px; height: 145px; flex-shrink: 0; font-size: 60px; } .profile figcaption { padding: 0; } .social-links { gap: 17px; } .news-row, .publication { grid-template-columns: 65px 1fr; gap: 14px; } .venue span, .venue small { width: 62px; } section + section { margin-top: 35px; } h2 { font-size: 26px; } }
