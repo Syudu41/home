@@ -63,3 +63,11 @@ footer { margin-top: 55px !important; padding: 22px 0 25px; border-top: 1px soli
 .construction { border-top: 1px solid var(--line); padding-top: 32px; margin-top: 36px; }
 .construction h2 { font-size: 24px; margin-bottom: 16px; }
 .construction p { color: var(--muted); }
+
+.teaching-intro { color: var(--muted); font-size: 14px; }
+.teaching-term { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 16px; margin-top: 18px; }
+.teaching-term h3 { font-size: 14px; font-weight: 400; color: var(--muted); }
+.teaching-term ul { list-style: none; margin: 0; padding: 0; font-size: 14px; }
+.teaching-term li + li { margin-top: 7px; }
+.course-code { font-weight: 600; margin-right: 8px; }
+@media (max-width: 650px) { .navigation { flex-direction: column; align-items: flex-start; } .teaching-term { grid-template-columns: 1fr; gap: 4px; } }
