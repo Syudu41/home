@@ -11,3 +11,4 @@
 - Format research interests as inline code within a natural sentence, following the reference; do not turn them into a separate tag list.
 - Keep Teaching on its own page, linked from every navigation bar. Profile captions show location/postal code before department and university. Use the official small UofM mark inline before university mentions in the bio.
 - Keep the header pinned while scrolling. Navigation contains only About, Publications, Teaching, and Blog, plus the theme toggle. Offset anchor scrolling by the measured header height.
+- Omit the site owner’s name from the header; use slightly larger (16px) navigation text.
