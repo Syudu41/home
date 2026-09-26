@@ -38,3 +38,5 @@ Inline excited-blob and waving-Pikachu GIFs were reused from the reference site 
 The Teaching section lists owner-supplied Spring/Fall 2026 TA appointments, without inventing duties. Database Systems is COMP 7115/8115 (corrected from a typo using https://www.memphis.edu/cs/courses/graduate.php); COMP 1900’s title follows https://www.memphis.edu/cs/courses/. The March 27, 2026 first-place poster award credits both Sudarshan Balaji and Madan Tammineni, as listed at https://www.memphis.edu/cs/news_and_events/news/2026_research_symposium.php.
 
 Selected publications use the simple venue-and-text layout with blue linked faculty/advisor names.
+
+Social icons above the footer use locally stored Font Awesome (GitHub, LinkedIn) and Simple Icons (Google Scholar) SVGs. Their licenses are in `assets/icons/`. Blog navigation uses explicit `index.html` links to support direct local-file previews as well as GitHub Pages.
