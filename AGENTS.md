@@ -8,3 +8,4 @@
 - Keep the footer visible at the bottom of the viewport while scrolling; reserve its measured height so it never covers page content.
 - Footer update dates are automatic: use the deployed document’s last-modified timestamp in Memphis time. Do not hardcode dates or use the current visit date.
 - Support light/dark mode on every page, including the fixed footer and icons. Respect the system theme until the visitor chooses a saved preference.
+- Format research interests as inline code within a natural sentence, following the reference; do not turn them into a separate tag list.
