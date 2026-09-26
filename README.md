@@ -12,7 +12,6 @@ Run `python3 -m http.server 8000` in this directory and open http://localhost:80
 
 - `index.html`: biography, links, news, and selected publications.
 - `assets/style.css`: typography, colors, and responsive layout.
-- `assets/profile.jpg`: profile photograph reused from the existing public portfolio.
 
 All asset paths are relative, so the site works under `/home/` on GitHub Pages.
 
@@ -22,7 +21,7 @@ Publish the `main` branch from the repository root using GitHub Pages (Settings 
 
 ## Content notes
 
-The first-year PhD status, current advisor Dr. Dipankar Dasgupta, and research interests are user supplied. Education, prior research experience, and photo were carried over from the public `Syudu41/portfolio` repository and should be reviewed for currency. Publication metadata was verified against https://aclanthology.org/2025.gem-1.36/.
+The first-year PhD status, current advisor Dr. Dipankar Dasgupta, and research interests are user supplied. Education and prior research experience were carried over from the public `Syudu41/portfolio` repository and should be reviewed for currency. Publication metadata was verified against https://aclanthology.org/2025.gem-1.36/.
 
 Email is omitted at the user’s request. CV is marked under construction. Google Scholar and LinkedIn URLs were supplied by the user; Scholar may not list all publications. The PhD start date is not specified.
 
@@ -33,3 +32,5 @@ Inline excited-blob and waving-Pikachu GIFs were reused from the reference site 
 ## Blog and news
 
 `blog/index.html` is the separate blog landing page, currently under construction. Both pages share navigation and `assets/style.css`. The AiXB 2026 acceptance, author names, September 28 presentation, and January 2026 PhD start were supplied by the site owner. The September news label records the announcement month.
+
+`publications/index.html` is an independent full-publications placeholder, linked from the navigation. The homepage’s selected publications stay separate. The personal photo has been removed from current files and social-preview metadata, and replaced with a robot emoji placeholder. May 2026 summer work with Dr. Vinhthuy Phan is owner supplied.
