@@ -68,7 +68,7 @@ html { scroll-padding-bottom: calc(var(--footer-height, 140px) + 24px); }
 
 .teaching-intro { color: var(--muted); font-size: 14px; }
 .teaching-term { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 16px; margin-top: 18px; }
-.teaching-term h3 { font-size: 14px; font-weight: 400; color: var(--muted); }
+.teaching-term h2 { font-size: 14px; font-weight: 400; color: var(--muted); }
 .teaching-term ul { list-style: none; margin: 0; padding: 0; font-size: 14px; }
 .teaching-term li + li { margin-top: 7px; }
 .course-code { font-weight: 600; margin-right: 8px; }
@@ -91,3 +91,6 @@ html { scroll-padding-bottom: calc(var(--footer-height, 140px) + 24px); }
 .theme-toggle[hidden] { display: none; }
 .theme-toggle:hover { color: var(--accent); }
 .theme-toggle span { font-size: 25px; line-height: 1; }
+
+.university-mark { display: inline-block; width: 20px; height: 20px; object-fit: contain; vertical-align: -4px; }
+#teaching > h1 { margin-bottom: 18px; }
