@@ -29,3 +29,7 @@ Email is omitted at the user’s request. CV is marked under construction. Googl
 ## Emote credits
 
 Inline excited-blob and waving-Pikachu GIFs were reused from the reference site https://liuyanchen1015.github.io/ (source: https://github.com/liuyanchen1015/liuyanchen1015.github.io). Sparkles artwork comes from GitHub’s emoji assets. Assets are stored locally in `assets/emotes`; animated decorations are hidden when visitors request reduced motion. See `assets/emotes/REFERENCE-LICENSE.txt` for the reference repository license.
+
+## Blog and news
+
+`blog/index.html` is the separate blog landing page, currently under construction. Both pages share navigation and `assets/style.css`. The AiXB 2026 acceptance, author names, September 28 presentation, and January 2026 PhD start were supplied by the site owner. The September news label records the announcement month.

@@ -57,3 +57,9 @@ footer { margin-top: 55px !important; padding: 22px 0 25px; border-top: 1px soli
 /* Small inline emotes, matching the reference homepage. */
 .emote { display: inline-block; width: 20px; height: 20px; object-fit: contain; vertical-align: -4px; }
 @media (prefers-reduced-motion: reduce) { .emote-animated { display: none; } }
+
+.nav-links a[aria-current="page"] { color: var(--accent); font-weight: 600; }
+.blog-main { min-height: 55vh; }
+.construction { border-top: 1px solid var(--line); padding-top: 32px; margin-top: 36px; }
+.construction h2 { font-size: 24px; margin-bottom: 16px; }
+.construction p { color: var(--muted); }
