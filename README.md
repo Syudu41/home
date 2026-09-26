@@ -36,3 +36,5 @@ Inline excited-blob and waving-Pikachu GIFs were reused from the reference site 
 `publications/index.html` is an independent full-publications placeholder, linked from the navigation. The homepage’s selected publications stay separate. The personal photo has been removed from current files and social-preview metadata, and replaced with a robot emoji placeholder. May 2026 summer work with Dr. Vinhthuy Phan is owner supplied.
 
 The Teaching section lists owner-supplied Spring/Fall 2026 TA appointments, without inventing duties. Database Systems is COMP 7115/8115 (corrected from a typo using https://www.memphis.edu/cs/courses/graduate.php); COMP 1900’s title follows https://www.memphis.edu/cs/courses/. The March 27, 2026 first-place poster award credits both Sudarshan Balaji and Madan Tammineni, as listed at https://www.memphis.edu/cs/news_and_events/news/2026_research_symposium.php.
+
+Selected publications use original CSS topic illustrations (not figures or results from the papers). The AiXB entry uses owner-supplied acceptance and author details; no paper URL is fabricated. Advisor author links are highlighted in blue.

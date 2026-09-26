@@ -28,9 +28,10 @@
       <div class="intro">
         <div class="biography">
           <p>Hi! <img class="emote emote-animated" src="assets/emotes/pikachu-wave.gif" width="20" height="20" alt="" aria-hidden="true"> I’m a first-year PhD student at the <a href="https://www.memphis.edu/">University of Memphis</a>, advised by <a href="https://www.memphis.edu/cs/people/faculty_pages/dipankar-dasgupta.php">Dr. Dipankar Dasgupta</a>.</p>
-          <p>My research interests include <span class="interest">federated learning</span>, <span class="interest">secure federated learning and its applications</span>, <span class="interest">computer vision</span>, and <span class="interest">large language and vision-language models (LLMs/VLMs)</span>.</p>
-          <p>Previously, I completed my MS in Data Science at the University of Memphis, where I worked as a research assistant with <a href="https://www.memphis.edu/cs/people/faculty_pages/deepak-venugopal.php">Dr. Deepak Venugopal</a>. I hold a BE in Electronics &amp; Telecommunication Engineering from RV College of Engineering.</p>
-          <p>My work has explored how vision-language models respond to changes in the questions we ask them. I have also worked on educational data visualization through the ASTRA project and on NLP applications for clinical data at CharmHealth.</p>
+          <p class="interests-label">Research interests</p>
+          <ul class="research-tags" aria-label="Research interests">
+            <li>Federated learning</li><li>Secure FL &amp; applications</li><li>Computer vision</li><li>LLMs / VLMs</li>
+          </ul>
           <div class="social-links" aria-label="Profile links">
             <a href="https://github.com/Syudu41">GitHub <span aria-hidden="true">↗</span></a>
             <a href="https://www.linkedin.com/in/sudarshan-balaji/">LinkedIn <span aria-hidden="true">↗</span></a>
@@ -56,12 +57,29 @@
     <section id="publications" aria-labelledby="publications-heading">
       <h2 id="publications-heading">selected publications</h2>
       <article class="publication">
-        <div class="venue"><span>GEM²</span><small>2025</small></div>
-        <div>
+        <div class="paper-preview reliability-preview" aria-hidden="true">
+          <span class="preview-label">LLM RELIABILITY</span>
+          <div class="preview-flow"><span>Context</span><span>↓</span><span>Evaluation</span><span>↓</span><span>Response</span></div>
+        </div>
+        <div class="paper-content">
+          <div class="paper-meta"><span class="venue-badge">AiXB 2026</span><span class="paper-status">Accepted</span></div>
+          <h3>Evaluation-Aware Hallucination in Large Language Models: A Context-Centered Reliability Study</h3>
+          <p class="authors">Arunava Roy, <a class="advisor" href="https://www.memphis.edu/cs/people/faculty_pages/dipankar-dasgupta.php" title="PhD advisor">Dipankar Dasgupta</a>, and <strong>Sudarshan Balaji</strong></p>
+          <p class="publication-venue">Presentation · September 28, 2026</p>
+        </div>
+      </article>
+      <article class="publication">
+        <div class="paper-preview vqa-preview" aria-hidden="true">
+          <span class="preview-label">VISUAL QUESTION ANSWERING</span>
+          <div class="preview-inputs"><span>Image</span><span>+</span><span>Question</span></div>
+          <span class="preview-arrow">↓</span><span class="preview-model">Vision-language model</span>
+          <span class="preview-arrow">↓</span><span class="preview-answer">How does the answer change?</span>
+        </div>
+        <div class="paper-content">
+          <div class="paper-meta"><span class="venue-badge">GEM² 2025</span><div class="paper-links"><a href="https://aclanthology.org/2025.gem-1.36/">Paper ↗</a><a href="https://aclanthology.org/2025.gem-1.36.pdf">PDF</a><a href="https://aclanthology.org/2025.gem-1.36.bib">BibTeX</a></div></div>
           <h3><a href="https://aclanthology.org/2025.gem-1.36/">Analyzing the Sensitivity of Vision Language Models in Visual Question Answering</a></h3>
-          <p class="authors">Monika Shah, <strong>Sudarshan Balaji</strong>, Somdeb Sarkhel, <a href="https://www.csee.umbc.edu/people/tenure-track-faculty/sanorita-dey/">Sanorita Dey</a>, and <a href="https://www.memphis.edu/cs/people/faculty_pages/deepak-venugopal.php">Deepak Venugopal</a></p>
-          <p class="publication-venue">Fourth Workshop on Generation, Evaluation and Metrics, 2025</p>
-          <div class="paper-links"><a href="https://aclanthology.org/2025.gem-1.36/">Paper</a><a href="https://aclanthology.org/2025.gem-1.36.pdf">PDF</a><a href="https://aclanthology.org/2025.gem-1.36.bib">BibTeX</a></div>
+          <p class="authors">Monika Shah, <strong>Sudarshan Balaji</strong>, Somdeb Sarkhel, <a href="https://www.csee.umbc.edu/people/tenure-track-faculty/sanorita-dey/">Sanorita Dey</a>, and <a class="advisor" href="https://www.memphis.edu/cs/people/faculty_pages/deepak-venugopal.php" title="Previous research advisor">Deepak Venugopal</a></p>
+          <p class="publication-venue">Fourth Workshop on Generation, Evaluation and Metrics</p>
           <details><summary>About this work</summary><p>We study how changes in question wording affect vision-language models in visual question answering, using conversational principles to examine their sensitivity.</p></details>
         </div>
       </article>
