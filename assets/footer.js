@@ -22,3 +22,13 @@ if (footer) {
   reserveFooterSpace();
   new ResizeObserver(reserveFooterSpace).observe(footer);
 }
+
+// Keep anchor destinations below the pinned header at every screen size.
+const header = document.querySelector('.site-header');
+if (header) {
+  const measureHeader = () => {
+    document.documentElement.style.setProperty('--header-height', `${header.getBoundingClientRect().height}px`);
+  };
+  measureHeader();
+  new ResizeObserver(measureHeader).observe(header);
+}
